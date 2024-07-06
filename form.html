@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <form>
+        <marquee direction="right">SMIT</marquee>
+        <br>
+        Username
+        <input type="text" name="Username" size="10" required>
+        <br>
+        <br>
+        Password
+        <input type="password" name="password" maxlength="8" placeholder="create 6 digit code" required>
+        <br>
+        <br>
+        Email
+        <input type="text" name="Email" placeholder="xyz@gmail.com" required> 
+        <br>
+        <br>
+        Cnic
+        <input type="number" name="Cnic" required>
+        <br>
+        <br>
+        Date Of Birth
+        <input type="date">
+        <br>
+        <br>
+        Gender
+        <input id="Male radio" type="radio" name="Gender" value="Male" checked> 
+        <label for="Male radio">Male</label>
+        <input id="Female radio" type="radio" name="Gender" value="Female">
+        <label for="Female radio">Female</label>
+        <input id="Other radio" type="radio" name="Gender" value="Other">
+        <label for="Other radio">Other</label>
+
+        <p>
+            
+            <h3>SELECT COURSE</h3>
+            
+            <select name="Courses" multiple required>
+                <option value="Web Development">Web Development</option>
+                <option value="Graphic Desinging">Graphic Desinging</option>
+                <option value="Python">Python</option>
+                <option value="English Language">English Language</option>
+            </select>
+        </p>
+
+        <P>
+            <h3>SELECT CAMPUS</h3>
+            <select name="City" multiple required>
+                <option value="Gulistan e Johar">Gulistan e Johar</option>
+                <option value="Bhadurabad">Bhadurabad</option>
+                <option value="Numaish">Numaish</option>
+                <option value="Malir">Malir</option>
+                <option value="Gulshan">Gulshan</option>
+            </select>
+        </P>
+        <h3>Upload Your Image</h3>
+        <input type="file" name="Image" >
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+  
+            <label
+              >Email:<br />
+              <input type="text" name="email" /> </label
+            ><br />
+            <label
+              >Mobile:<br />
+              <input type="number" name="mobile" /></label
+            ><br />
+            <label
+              >Telephone:<br />
+              <input type="number" name="telephone"
+            /></label>
+          </fieldset>
+          <br>
+          <br>
+          SUBMIT FORM
+         <input type="Submit" value="Submit">
+         <br>
+         <br>
+         <a href="index.html">INDEX PAGE</a>
+
+
+
+
+
+    </form>
+
+</body>
+</html>
